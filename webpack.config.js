@@ -27,6 +27,11 @@ module.exports = {
         use: [{loader: 'style-loader'}, {loader: 'css-loader'}, {loader: 'postcss-loader'}],
         exclude: /node_modules/,
       },
+      {
+        test: /\.(jpg|png|ttf|eot|woff|woff2|svg)$/,
+        use: ['file-loader'],
+        exclude: /node_modules/,
+      },
     ],
   },
 };

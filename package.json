@@ -37,6 +37,7 @@
     "eslint-plugin-react": "^7.4.0",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.16.2",
+    "file-loader": "^1.1.5",
     "husky": "^0.14.3",
     "postcss-calc": "^6.0.1",
     "postcss-hexrgba": "^1.0.0",
